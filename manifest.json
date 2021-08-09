@@ -1,0 +1,16 @@
+{
+    "name": "classroom",
+    "version": "1.0",
+    "manifest_version": 2,
+
+    "browser_action": {
+        "default_title": "Classroom",
+        "default_icon": "google-classroom.png"
+    },
+
+    "background": {
+        "scripts": ["background.js"]
+    },
+
+    "permissions": ["tabs"]
+}
